@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>校结易后台管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+<link rel="stylesheet" type="text/css" href="resources/css/selectric.css">
+<link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css">
+<script type="text/javascript" src="resources/js/plugins/jquery.selectric.min.js"></script>
+</head>
+<body class="logbg">
+<div class="logwrap">
+    <div class="login_content">
+        <div class="login_title"><img src="resources/images/logo.png"></div>
+        <form>
+            <div class="login_con">
+                <span>账号：</span>
+                <div class="input_item">
+                    <input id="username" name="username" maxlength="16" type="text" placeholder="请输入登录账号" value="" class="log_text"/>
+                    <em class="userico cur"></em>
+                </div>
+                <span>密码：</span>
+                <div class="input_item">
+                    <input id="password" name="password" maxlength="16" type="password" placeholder="请输入登录密码" value="" class="log_text"/>
+                    <em class="pwdico cur"></em>
+                </div>
+
+                <span>验证码：</span>
+                    <span class="input_item yzm-input">
+                      <input name="captcha" maxlength="5" type="text" placeholder="请输入验证码" value="" class="log_text"/>
+                    </span>
+                    <a href="javascript:void(0);" id="refresh">
+                        <img id="captcha" src="${web_domain}/captcha" class="img-polaroid"/>
+                    </a>
+
+                <input type="submit" class="login_btn" value="登&nbsp;录">
+                <div id="error" class="logerror"></div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+

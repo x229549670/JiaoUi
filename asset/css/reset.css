@@ -1,0 +1,23 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,a{margin: 0;padding: 0;font-family:'Microsoft YaHei';}
+body,button,input,select,textarea {font: 14px/1.5 'Microsoft YaHei',arial,"\5b8b\4f53";*line-height: 1.5;-ms-overflow-style: scrollbar;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;}
+address,cite,dfn,em,var {font-style: normal;}
+code,kbd,pre,samp {font-family: courier new,courier,monospace;}
+small {font-size: 12px;}
+ul,ol {list-style: none;}
+a {text-decoration: none;color:#333;}
+a:hover {text-decoration: underline;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+legend {color: #000;}
+fieldset,img {border: 0;}
+button,input,select,textarea {font-size: 100%; outline:none;}
+table {border-collapse: collapse;	border-spacing: 0;}
+.wrap{min-width:1200px;margin:0 auto;}
+.color_red{color:#f00 !important;}
+.color_blue{color:#0752A2 !important;}
+.color_green{color:#393 !important;}
+
+.fn-clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.fn-clear { zoom: 1; /* for IE6 IE7 */ }
